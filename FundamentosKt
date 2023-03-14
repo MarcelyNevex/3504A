@@ -73,8 +73,8 @@ fun main() {
     println(" A posição do Lek Lek + a posição do Alonso são " + (leclerc + alonso))
     
     
-    var nome = "Eduardo" 
-    var idade = 19 
+    var nome = "Marcele" 
+    var idade = 17
     var cidade = "São Paulo" 
     
     println("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
