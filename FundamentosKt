@@ -97,3 +97,37 @@ fun main() {
     println("Joao:Ola")
 }
 //---------------------------------------------------------------------
+fun main() {
+
+    println("Person1: Oi, como você está, [Name]?")
+
+println("Person2: Estou bem, obrigado, [Name]. E você?")
+
+println("Person1: Estou ótimo! Você está ocupado esta noite?")
+
+println("Person2: Não, por quê?")
+
+println("Person1: Eu estava pensando em convidá-lo para sair comigo e com alguns amigos para um bar novo que acabou de abrir.")
+
+println("Person2: Parece divertido. Qual é o nome do bar?")
+
+println("Person1: É chamado de The Blue Note. Eles têm música ao vivo e coquetéis incríveis.")
+
+println("Person2: Adoro música ao vivo. A que horas vocês vão se encontrar lá?")
+
+println("Person1: Planejamos chegar lá por volta das 20h. O que acha?")
+
+println("Person2: Parece bom. Posso convidar mais alguém?")
+
+println("Person1: Claro, sinta-se à vontade para trazer quem quiser. Quanto mais, melhor.")
+
+println("Person2: Ok, vou ver se consigo trazer alguns amigos. Obrigado pelo convite, [Name].")
+
+println("Person1: Sem problemas, mal posso esperar para sair com todos vocês. Até lá, [Name]!")
+
+println("person2:Estarei te esperando")
+
+println("Person2: Até, [Name]!")
+
+}
+//-----------------------------------------------------------------------------------------------
