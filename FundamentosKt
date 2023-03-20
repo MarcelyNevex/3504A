@@ -131,3 +131,32 @@ println("Person2: Até, [Name]!")
 
 }
 //-----------------------------------------------------------------------------------------------
+fun main() {
+    
+   //Operadores matemáticos 
+   
+   // + -> adição
+   // - -> subtração
+   //  / -> multiplivação
+   //  % -> módulo
+   // 
+   /* 
+   var halls = 7
+   var freegells = 6 
+    
+    println(halls % freegells)
+     */
+    //EXERCICIO - Faça uma calculadora que contenha cada um dos calculos matematicos 
+    //como resultado do cálculo de duas variáveis (contendo resultado para +,-,/,*, e %),
+    //contendo também uma interface simples e bem bonita :)
+    //
+    //
+    //
+    //
+    //
+    //
+         
+      var n1 = 0 
+      
+}
+//----------------------------------------------------------------------------------------------
