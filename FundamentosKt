@@ -308,3 +308,56 @@ fun main() {
     
 }
 //-----------------------------------------------------------------
+fun main() {
+  
+   /**
+    * Declarando variáveis
+    * 
+    * No Kotlin,nós temos duas formas de declarar variáveis,
+    * onde uma delas pode ter seu valor alterado,e a outra
+    * a partir do momento que é criada,possui um valor fixo
+    * de ali em diante 
+    * 
+    * Tipos de declaração de variável
+    * 
+    * var:variável com valor mutável
+    * 
+    * var:variável com valor fixo
+    * 
+    * 
+    * 
+    * 
+    * 
+    * 
+    * Tipos de Variáveis  numéricas:
+    * 
+    * Int: guarda números inteiros (sem casas depois da virgula)
+    * 
+    * float: guarda até 7 casas decimais (ex: 2.0000000f)
+    * 
+    * double: guarda até 15 casas decimais (ex: 2.00)
+    * 
+    * long:guarda todos os números após a vírgula (ex: 2.000000000000000)
+    * 
+    * 
+    * 
+    * 
+    * 
+    */
+    /*
+    var num1 = 1 
+    
+    println(num1)
+    
+    num1 = 2
+    
+    println(num1)
+    
+    */
+    
+    
+    var texto = "Forever Young"
+    
+    println(texto)
+  
+}
