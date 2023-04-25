@@ -361,3 +361,53 @@ fun main() {
     println(texto)
   
 }
+/---------------------------------------------------------
+fun main() {
+  
+    println(kotlin)
+    /*
+    //Concatenação
+    var numero = 15
+    
+    
+    var num1 = 7
+    var num2 = 24
+    
+    println(num1 + num2)
+    
+    //Forma simples de concatenação
+    println("Eu tenho um iphone $numero")
+    
+    //concatenação com 2 valores
+    println("A soma entre os numeros 7 e 24 é igual á = ${num1 + num2}")
+    
+    */
+    
+   /**Operadores Matemáticos
+    * 
+    * Soma +
+    * Subtração -
+    * Multiplicar *
+    * Divisão /
+    * Modulo %
+    */
+   
+    /**Operadores Relacionais
+     * 
+     * == - Igualdade entre dois valores
+     * != - Diferença (caso um valor esteja diferente do outro)
+     * >= - Maior ou igual
+     * <= - Menor ou igual
+     * < - Menor que
+     * > - Maior que
+     * 
+     * ++ - Soma mais um em uma variável (exemplo: i++)
+     * -- - Subtrai menos um em uma variável (exemplo: i--)
+     * 
+     * += - Soma e acumula o resultado em uma variável
+     * 
+     * -= - Subtrai e acumula o resultado em uma variável
+     * 
+     */ 
+    
+}
