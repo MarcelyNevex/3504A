@@ -411,3 +411,54 @@ fun main() {
      */ 
     
 }
+
+   
+    var coracoes = 3
+ 
+    if(coracoes <=0){
+        println("Voce está morto!")
+        
+    }else{
+        println("Voce não foi de berço")
+        
+    }
+    
+    */
+  /*
+  //if..else composto
+    var coracoes = 10
+
+    
+ if(coracoes <=0){
+     println("Voce foi de comes e bebes")
+ }else if(coracoes <=5){
+     println("Sua saude ta parecendo a carteira do Nicolas,ta precaria")
+ }else{
+     println("Voce está otimo de saude")
+ }
+ */
+ 
+ //Atividade
+ 
+ /**
+  * Faça um semáforo, onde caso o sinal esteja verde, voce possa avançar
+  * 
+  * caso esteja amarelo,diminua a velocidade 
+  * 
+  * caso esteja vermelho,voce deve parar de andar com o carro
+  */
+ 
+var vermelho = false
+    
+    
+ if(vermelha == true){
+     println
+
+   
+  
+    
+    
+    
+    
+    
+}
