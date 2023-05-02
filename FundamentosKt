@@ -453,7 +453,79 @@ var vermelho = false
     
  if(vermelha == true){
      println
-
+/-------------------------------------------
+fun main() {
+ 
+    println(kotlin)
+   /**
+    * Tabela da verdade
+    * 
+    * &&(E)
+    * 
+    * VV - Verdadeiro
+    * VF - Falso
+    * FV - Falso
+    * FF - Falso
+    * 
+    * || (Ou)
+    * 
+    * VV - Verdadeiro
+    * VF - Verdadeiro
+    * FV - Verdadeiro
+    * FF - Falso
+    * 
+    */ 
+    
+    /*
+    var coracoes = 5
+    var vidas = 3
+    
+    if(coracoes <=0 && vidas <=0){
+        println("Voce vai ir para tela de Game Over")
+    }else{
+        println("O  jogo será reiniciado")
+        
+    }
+    
+    */
+   /*
+   var peso = 180.0
+   var altura = 1.70     
+   
+    var imc = peso/(altura*altura)
+    
+    if(imc < 18.5 && imc> 1){
+        println("IMC: $imc")
+        println("Voce está abaixo do peso")
+    }else if(imc >=18.5  && imc < 25){
+        println("IMC: $imc")
+        println("Voce está no peso normal")
+    }else if(imc >=25 && imc < 30){
+        println("IMC: $imc")
+        println("Voce está com Sobrepeso")
+    }else if(imc > 30){
+        println("IMC: $imc")
+        println("Voce está obeso")
+    }else{
+        println("Inválido")
+        
+    }
+    */
+  
+  /**
+   * While(o Laço sem fim)
+   * 
+   * While é um tipo de sistema de repetião,
+   * onde ele irá repetir algo de acordo com sua
+   * condição, caso ela esteja verdadeira,ele irá
+   * repetir a ação de forma "infinita",podendo
+   */
+  
+  
+  
+  
+}
+/------------------------------------------------------------------------------
    
   
     
