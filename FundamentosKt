@@ -526,7 +526,47 @@ fun main() {
   
 }
 /------------------------------------------------------------------------------
-   
+ fun main() {
+    /*
+    var contador = 0
+    
+    while (contador <= 5){
+        println("Seja educado")
+        contador++
+       println(contador) 
+        
+    }
+   */ 
+    /*
+    var sum: Int = 0  
+    var input: String
+    
+    do {
+        println("Insira um valor: ")
+        input = readLine()!!
+        sum += input.toInt()
+        
+        
+    }while (input !="0")
+    
+    println("sum = $sum")
+    
+   */
+
+    //repeat
+    
+    
+    repeat(3){
+        println("um siri fazendo barra")
+    }
+
+
+
+}
+
+
+
+/-------------------------------------------------------------  
   
     
     
