@@ -568,7 +568,41 @@ fun main() {
 
 /-------------------------------------------------------------  
   
-    
+/* Online Kotlin Compiler */
+fun main() {
+ /*
+  var numero = 0
+  
+  println("Insira um numero")
+  
+  numero = readLine()!!.toInt()
+  if(numero > 5){
+      println("Este numero e maior que 5")
+  }else{
+      println("Este numero não e maior que 5")
+  }
+  */
+  var mes = 0
+  
+  println("Digite o numero de um mes:")
+  
+  mes = readLine()!!.toInt()
+  
+  when(mes){
+      1-> println("Janeiro")
+      2-> println("Fevereiro")
+      3-> println("Marco")
+      4-> println("Abril")
+      5-> println("Maio")
+      6-> println("Junho")
+      7-> println("Julho")
+      8-> println("Agosto")
+      9-> println("Setebro")
+      10-> println("Outubro")
+      11-> println("Novembro")
+      12-> println("dezembro")
+  }
+}    
     
     
     
