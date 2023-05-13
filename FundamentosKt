@@ -605,6 +605,17 @@ fun main() {
 }    
     
  /------------------------------------------------------------------   
+ fun main() {
+   print("Digite um valor inteiro: ")
+    val valor = readLine()!!.toInt()
+    var contador = 0
     
+    while (contador < valor) {
+        println("Voce e bonito")
+        contador++
+        println(contador)
+    }
+    */
+        }   
     
 }
