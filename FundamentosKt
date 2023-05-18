@@ -619,3 +619,97 @@ fun main() {
         }   
     
 }
+/* Online Kotlin Compiler */
+fun main() {
+    /*
+
+ var digitar = ""
+     
+     print( " Tinha dois cachorros, o pet e o repet, o pet morreu, quem sobrou?\n" );
+     digitar = readLine()!!.toString();
+    
+    while (digitar == "repet") {
+        
+        print( " Tinha dois cachorros, o pet e o repet, o pet morreu, quem sobrou?\n" );
+        digitar = readLine()!!.toString();
+
+    }
+}
+*/
+/*
+ var r ="";
+    var dinheiro = 15.0;
+    
+    
+    while (dinheiro > 0)
+    {
+        var frase = "Voce ainda tem " + dinheiro + " de dinheiro, o que deseja comprar\n"
+        
+        print (frase)
+        print("1-Feijao (5.20) \n ")
+        print("2-Arroz (2.75)  \n")
+        print("3-açucar (3.50)  \n")
+        print("4-leite (4.10)  \n")
+        print("5-cebola (1.30)  \n")
+        
+        
+       var compra = 0.0
+  
+       print("Digite o numero de uma compra:")
+  
+       compra = readLine()!!.toDouble()
+       
+       when(compra){
+           
+           1.0->  dinheiro = dinheiro - 5.20
+           2.0-> dinheiro = dinheiro - 2.75
+           3.0-> dinheiro = dinheiro - 3.50
+           4.0-> dinheiro = dinheiro - 4.10
+           5.0-> dinheiro = dinheiro - 1.30
+           
+       }
+        
+      //  dinheiro = dinheiro - 1
+    }
+   */
+   /*
+   var vezes = 0
+   
+   println("programa dos elogios, digite quantas vezes quer ser elogiado: ")
+   
+   vezes = readLine()!!.toInt()
+   
+   repeat(vezes){
+       println("Voce e bonito")
+   }
+   */
+   
+   //exercicio2
+   var escolha = 0
+   var dinheiro 0.0
+   
+   println("Quanto dinheiro voce tem?")
+   dinheiro = readLine()!!.toDouble()
+   
+   while (dinheiro > 1.25){
+       println("Bar da tijuca")
+       println("1 - Maçã (1.25)")
+       println("2 - Arroz (5.20)")
+       println("3 - Feijao (7.30)")
+       println("4 - Açúcar (4.40)")
+       
+       println("Escolha qual dos itens acima deseja comprar: ")
+       
+       escolha = readLine()!!.toInt()
+       
+       when(escolha){
+           1-> dinheiro -= 1.25
+           2-> dinheiro -= 5.20
+           3-> dinheiro -= 7.30
+           4-> dinheiro -= 4.40
+       }
+       
+       println("Voce ainda tem $dinheiro de dinheiro")
+   }
+}
+
