@@ -713,3 +713,86 @@ fun main() {
    }
 }
 
+/---------------------------------------------------------------
+Solutions
+Docs
+Community
+Teach
+Play
+
+1.8.21
+JVM
+Program arguments
+Copy link
+Share code
+Run
+fun main() {
+   //exercicio2
+   /*
+   var escolha = 0
+   var dinheiro 0.0
+   
+   println("Quanto dinheiro voce tem?")
+   dinheiro = readLine()!!.toDouble()
+   
+   while (dinheiro > 1.25){
+       println("Bar da tijuca")
+       println("1 - Maçã (1.25)")
+       println("2 - Arroz (5.20)")
+       println("3 - Feijao (7.30)")
+       println("4 - Açúcar (4.40)")
+       
+       println("Escolha qual dos itens acima deseja comprar: ")
+       
+       escolha = readLine()!!.toInt()
+       
+       when(escolha){
+           1-> dinheiro -= 1.25
+           2-> dinheiro -= 5.20
+           3-> dinheiro -= 7.30
+           4-> dinheiro -= 4.40
+       }
+       
+       println("Voce ainda tem $dinheiro de dinheiro")
+   }
+}
+*/
+ //Exercicio 3
+ /*
+ var resposta = ""
+​
+  println("Tinha dois cachorros, o pet e o repet, o pet morreu, quem sobrou?")
+  
+  resposta = readLine()!!
+    
+    while(resposta == "repet"){
+         println("Tinha dois cachorros, o pet e o repet, o pet morreu, quem sobrou?")
+         
+         resposta = readLine()!!
+        
+        
+    }
+    */
+    
+    for (numero in 1..100){
+      println(fizzBuzz(numero))
+    }
+    
+}
+​
+​
+ //Laço For
+ //Números divisíveis por 15 = "FizzBuzz"
+ //Números divisiveis por 3 = "Fizz"
+ //Números divisiveis por 5 = "Buzz"
+ 
+ fun fizzBuzz(numero: Int)= when{
+     numero % 15 == 0 -> "FizzBuzz"
+     numero % 3 == 0 -> "Fizz"
+     numero % 5 == 0 -> "Buzz"
+     else -> "$numero"
+}
+ 
+ 
+​
+/-------------------------------------------------------------
