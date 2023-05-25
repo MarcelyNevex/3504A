@@ -796,3 +796,66 @@ fun main() {
  
 ​
 /-------------------------------------------------------------
+fun main() {
+    /*
+     for (numero in 1..100){
+      println(fizzBuzz(numero))
+    }
+    */
+    
+    simples()
+    println(max(13,22))
+    acSimples()
+    
+    
+}
+
+
+ //Laço For
+ //Números divisíveis por 15 = "FizzBuzz"
+ //Números divisiveis por 3 = "Fizz"
+ //Números divisiveis por 5 = "Buzz"
+ 
+ fun fizzBuzz(numero: Int)= when{
+     numero % 15 == 0 -> "FizzBuzz"
+     numero % 3 == 0 -> "Fizz"
+     numero % 5 == 0 -> "Buzz"
+     else -> "$numero"
+}
+ 
+ //------------Funções----------------------
+ 
+ /**
+  *Funções são blocos de codigo que fazemos em lugares 
+  *separados e depois chamamos eles onde queremos que
+  *sejam executados
+  */
+  
+  
+  fun simples(){
+      println("Hello World")
+  }
+  
+  fun max(a: Int, b: Int): Int{
+     return if(a > b){
+          a
+      }else{
+          b
+      }
+  }
+  
+  fun acSimples(){
+      println("Eu sou uma função simples")
+      
+      var num1 = 10
+      var num2 = 7
+      
+      if(num1 > num2){
+          println("$num1 é maior que $num2")
+      }else{
+          println("$num1 é menor que $num2")
+      }
+  }
+  
+  
+/--------------------------------------------------------------
