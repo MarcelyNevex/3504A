@@ -949,7 +949,67 @@ fun main() {
       return texto
       
   }
+ /----------------------------------------------------------------------------------------- 
   
-  
-​
+fun main() {
+     //Collections
+   
+    /*
+     * O Kotlin não possui em sua base as estruturas de dados de coleções,
+     * logo, ele acaba por importar do seu pai (Java) e isso se aplica a todos os
+     * conjuntos de dados de classes colecionáveis (List, Map, Set, array e etc)
+     * 
+     * 
+     * Ex.: val frutas = arrayListOf("Maça","Banana","Manga")
+     * 
+     */
+    
+    println("Vamos criar uma lista")
+    
+    //Mutável, sem tamanho fixo, pode adicionar ou remover valores
+    val frutas = ArrayList<String>()
+    
+    //Adicionar um valor/item dentro da nossa lista
+    frutas.add("Acerola")
+    frutas.add("Tomate")
+    frutas.add("Laranja")
+    
+    //Exibir a lista concatenando
+    println("Esta é a nossa lista $frutas")
+    
+    
+    
+    val frutas1 = arrayListOf<String>("maça","banana","morango")
+    
+    frutas1.add("Romã")
+    println(frutas1)
+    //Alterar o item de acordo com o posionamento
+    frutas1[3] = "manga"
+    println(frutas1)
+    //Remover a partir do nome
+    frutas1.remove("banana")
+    println(frutas1)
+    //Remover a partir do posicionamento
+    frutas1.removeAt(0)
+    println(frutas1)
+    println(frutas1.size)//Verificar o tamanho/quantos itens tem na lista
+    println(frutas1.isEmpty())//Verifica se está vazia ou não
+    
+    //List -> Imutável, tamanho fixo (nãoo pode add), apenas para leitura 
+    var listaItens = listOf("Sólido","Líquido","Gasoso")
+    println(listaItens)
+    
+    
+    var lista = mutableListOf<String>()
+    lista.add("Uma Lista")
+    
+    
+    
+    var nomes = mutableMapOf(12 to "Gui", 75 to "Jonas Brode")
+    nomes.put(20,"João")
+    nomes.put(35,"Zé")
+    nomes[12] = "Gasbriel"
+    nomes.remove(75)
+    println(nomes)
+    }
 
